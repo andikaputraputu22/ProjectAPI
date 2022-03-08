@@ -3,6 +3,7 @@ package com.mobile.projectapi.utils
 import android.app.Application
 import com.mobile.projectapi.api.Api
 import com.mobile.projectapi.api.Client
+import com.mobile.projectapi.database.ProjectApiDatabase
 import com.mobile.projectapi.factory.ProjectApiViewModelFactory
 import com.mobile.projectapi.repository.ProjectApiRepository
 import org.kodein.di.Kodein
@@ -17,7 +18,8 @@ class ProjectApiApplication : Application(), KodeinAware {
         import(androidXModule(this@ProjectApiApplication))
 
         bind<Api>() with singleton { Client.instance }
+        bind() from singleton { ProjectApiDatabase(instance()) }
         bind() from singleton { ProjectApiViewModelFactory(instance()) }
-        bind() from singleton { ProjectApiRepository(instance()) }
+        bind() from singleton { ProjectApiRepository(instance(), instance()) }
     }
 }

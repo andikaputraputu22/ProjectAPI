@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/Android/ProjectAPI/app/src/main/res/layout/activity_main.xml" value="0.14722222222222223" />
+        <entry key="..\:/Projects/Android/ProjectAPI/app/src/main/res/layout/adapter_komoditas.xml" value="0.18034447821681865" />
         <entry key="..\:/Projects/Android/ProjectAPI/app/src/main/res/layout/fragment_add_list.xml" value="0.358695652173913" />
         <entry key="..\:/Projects/Android/ProjectAPI/app/src/main/res/layout/fragment_list_harga.xml" value="0.33" />
+        <entry key="..\:/Projects/Android/ProjectAPI/app/src/main/res/layout/spinner_item.xml" value="0.1" />
         <entry key="..\:/Users/Appkey/Documents/Putu/PORTFOLIO/ProjectAPI/app/src/main/res/layout/activity_main.xml" value="0.371875" />
         <entry key="..\:/Users/Appkey/Documents/Putu/PORTFOLIO/ProjectAPI/app/src/main/res/layout/adapter_harga.xml" value="0.1" />
         <entry key="..\:/Users/Appkey/Documents/Putu/PORTFOLIO/ProjectAPI/app/src/main/res/layout/fragment_add_list.xml" value="0.33" />

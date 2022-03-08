@@ -76,7 +76,7 @@ dependencies {
     implementation "org.kodein.di:kodein-di-framework-android-x:$kodein_version"
 
     // Room
-    def room_version = "2.2.6"
+    def room_version = "2.4.0"
     implementation "androidx.room:room-runtime:$room_version"
     implementation "androidx.room:room-ktx:$room_version"
     kapt "androidx.room:room-compiler:$room_version"

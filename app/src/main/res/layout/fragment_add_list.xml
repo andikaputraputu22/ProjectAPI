@@ -80,7 +80,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginTop="16dp"
-                android:inputType="text"
+                android:inputType="number"
                 android:hint="Harga"
                 android:textSize="14sp"
                 android:fontFamily="@font/roboto"
